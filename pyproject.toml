@@ -3,24 +3,36 @@ name = "cola-label-verification"
 version = "0.1.0"
 description = "AI-powered alcohol label verification prototype"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.12.0",
+    "gradio>=4.0.0",
+    "paddleocr>=3.3.3",
+    "paddlepaddle>=3.2.0; platform_system != 'Linux' or platform_machine != 'x86_64'",
+    "paddlepaddle-gpu==3.3.0; platform_system == 'Linux' and platform_machine == 'x86_64'",
     "pillow>=12.1.0",
+    "pydantic>=2.7.0",
     "requests>=2.31.0",
+    "accelerate>=0.29.0",
+    "torch>=2.2.0",
+    "transformers>=4.39.0",
     "urllib3>=2.0.0",
 ]
 
 [tool.ruff]
 line-length = 88
-target-version = "py311"
+target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I"]
 
 [tool.pyright]
-pythonVersion = "3.11"
+pythonVersion = "3.12"
 typeCheckingMode = "basic"
+exclude = ["scripts", "tests"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
 
 [dependency-groups]
 dev = [
@@ -29,3 +41,11 @@ dev = [
     "pytest>=9.0.2",
     "ruff>=0.14.14",
 ]
+
+[[tool.uv.index]]
+name = "paddle-cu118"
+url = "https://www.paddlepaddle.org.cn/packages/stable/cu118/"
+explicit = true
+
+[tool.uv.sources]
+paddlepaddle-gpu = { index = "paddle-cu118" }

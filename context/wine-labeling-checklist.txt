@@ -1,0 +1,183 @@
+CHECKLIST OF MANDATORY LABEL INFORMATION | WINE
+This guidance lists the mandatory information that TTB reviews on every wine label and certificate of label
+approval application and includes a checklist to help prevent common errors. This document does not
+provide comprehensive labeling guidance. Wine for which a certificate of label approval is required must
+be labeled in compliance with all applicable requirements in 27 CFR part 4 and 27 CFR part 16.
+Mandatory Information that Must Appear on the Brand Label
+Any label may be designated as the brand label provided it contains these items (if applicable)
+Mandatory Item and
+Description
+Regulatory
+Citation Checklist
+Brand Name
+Name under which the
+product will be sold.
+27 CFR 4.33
+☐ Does the brand name appear on the brand label?
+☐ Does it match the entry in the “Brand Name” field on the
+application?
+Designation:
+Class/Type Designation
+Examples: “Red Wine,”
+“Sparkling Wine,” “Peach
+Wine,” “Honey Wine,” or
+“Chardonnay”
+OR Statement of
+Composition
+A truthful and adequate
+statement of composition
+in lieu of a class
+designation if the class of
+wine is not defined in 27
+CFR 4.21.
+27 CFR 4.21
+27 CFR 4.34
+27 CFR 4.91
+(grape
+varietals
+approved for
+domestic
+wine)
+☐ Does the designation appear on the brand label?
+☐ If the designation is a class or type, is it consistent with a
+class or type listed in the regulations?
+☐ Is the designation separate and apart from all other
+information?
+☐ Is it spelled correctly?
+☐ Are one or more grape varietals listed on the brand label?
+A varietal is considered the class/type designation if it is
+present on the brand label.
+☐ If yes, does the listing match the “Grape
+Varietal(s)” field on the application?
+☐ For domestic wine, is each varietal approved for
+domestic use?
+☐ Is it a wine that requires a formula? (Check wine formula
+requirements here.)
+☐ If yes, is the statement of composition the same as
+the suggested general statement on the approved
+formula (under Determination and Labeling
+Instructions) or more specific?
+☐ Has the approved formula number been selected
+on the application?
+☐ Are this and other labels on the container free from
+conflicting or inconsistent designations? (e.g., “red wine with
+natural flavors” vs. “red wine”)
+Appellation of Origin
+An area where the fruit or
+agricultural product used
+to make the wine was
+grown.
+27 CFR 4.25
+27 CFR 4.34
+Generally, mandatory ONLY if the label contains a grape
+varietal type designation, a type designation of varietal
+significance, a vintage date, or a semi-generic type
+designation, or if the product is labeled as estate bottled. See
+Appellation of Origin for more information.
+☐ Is the country, state, county, American Viticultural Area or
+other appellation shown on the brand label together with the
+designation?
+☐ Does the appellation on the label match the “Appellation”
+field on the application?
+Percentage of Foreign
+Wine
+Example: 50% American
+wine/50% French wine
+27 CFR
+4.32(a)(4)
+Mandatory for blends of American and foreign wine ONLY if
+the label refers to foreign wine. 
+Mandatory information that May Appear on ANY Label
+Mandatory Item and
+Description
+Regulatory
+Citation Checklist
+Alcohol Content
+Example: Alcohol __% by
+volume
+27 CFR 4.36
+☐ Is the alcohol content stated on the label? See Alcohol
+Content for rules on table wine.
+☐ Are the format and abbreviations acceptable? You may
+use: “Alc.”, “Alc”, “Vol.”, “Vol” or “%”.
+Net Contents
+Volume of wine in
+container.
+27 CFR 4.37
+☐ Is the net contents statement present on the label or
+blown into or marked on the container?
+☐ Are the format and abbreviations acceptable (e.g., 750
+mL, 1 L)?
+☐ Does it meet an approved standard of fill? Only a standard
+of fill approved in 27 CFR 4.72 is acceptable in most cases.
+Exceptions: See 27 CFR 4.70(b)
+Name and Address
+The name and address
+(city and state) as listed
+on your permit.
+27 CFR 4.35
+☐ Is the name and address on the label?
+☐ Does the name on the label match what is shown on the
+permit listed on your application?
+☐ If not, is the DBA/trade name on the label shown
+on both the application and the permit?
+☐ Does the address (city and State) on the label match the
+address on your application?
+☐ Does the name and address immediately follow a phrase
+such as "Bottled By” or “Imported By”, respectively, with no
+intervening text?
+Sulfite Declaration
+Example: “Contains
+Sulfites”
+27 CFR
+4.32(e)
+Must appear if the product has 10 ppm or more (total) sulfur
+dioxide.
+☐ “No sulfites added” may be stated but must appear
+together with the phrase “contains naturally occurring sulfites”
+or “may contain naturally occurring sulfites.”
+☐ If the label does not have a sulfite declaration, are you
+required to include with your application a corresponding
+sulfite analysis conducted by a TTB laboratory that shows
+that the wine contains less than 10 ppm sulfites?
+Health Warning
+Statement
+Statement must appear
+exactly as prescribed in
+the regulations.
+27 CFR part
+16
+☐ Is the statement on the label?
+☐ Does it match the exact wording and punctuation?
+☐ Are the words “GOVERNMENT WARNING” in capital
+letters and bold type?
+☐ Are the “S” in Surgeon and “G” in General capitalized?
+☐ Does it appear as one statement?
+☐ Is it separate and apart from other information on the
+label?
+Country of Origin
+Imported wines only
+Required by U.S. Customs
+and Border Protection
+(CBP).
+19 CFR
+134.11
+☐ Is the country of origin statement on the label?
+☐ Does the format of the country of origin statement comply
+with CBP regulations? NOTE: Questions about the
+appropriate country of origin should be directed to CBP.
+FD&C Yellow #5
+Example: “Contains
+FD&C Yellow #5”
+27 CFR
+4.32(c)
+Mandatory ONLY if FD&C Yellow #5 is used in the wine.
+☐ Is the statement on the label?
+Cochineal Extract or
+Carmine
+Example: “Contains
+Carmine:”
+27 CFR
+4.32(d)
+Mandatory ONLY if used in the wine.
+☐ Is the statement on the label?
