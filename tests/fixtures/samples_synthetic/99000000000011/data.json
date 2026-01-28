@@ -1,0 +1,41 @@
+{
+  "id": "99000000000011",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.curvature.mild",
+    "warning.linebreaks"
+  ],
+  "fields": {
+    "ttb_id": "99000000000011",
+    "brand_name": "Royal No. 9",
+    "class_type_description": "Hazy Pale Ale",
+    "alcohol_content": "4.0% Alc./Vol.",
+    "net_contents": "750 mL",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

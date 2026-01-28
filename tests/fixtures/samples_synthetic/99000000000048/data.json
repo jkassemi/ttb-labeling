@@ -1,0 +1,43 @@
+{
+  "id": "99000000000048",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.grain.low",
+    "image.compression.high",
+    "abv.proof",
+    "brand.punctuation"
+  ],
+  "fields": {
+    "ttb_id": "99000000000048",
+    "brand_name": "Juniper Valley",
+    "class_type_description": "California Red Wine",
+    "alcohol_content": "13.5% Alc./Vol.",
+    "net_contents": "500 mL",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "imported"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

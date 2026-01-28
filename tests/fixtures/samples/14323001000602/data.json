@@ -1,0 +1,124 @@
+{
+  "id": "14323001000602",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "14323001000602",
+    "class_type_code_short": "140",
+    "origin_code_short": "35",
+    "plant_registry_number": "DSP-NC-15011",
+    "applicant_name_address": "HOWLING MOON, THE COPPER STILL LLC 42 OLD ELK MOUNTAIN RD ASHEVILLE NC 28804 HOWLING MOON (Used on label)",
+    "serial_number": "140002",
+    "brand_name": "HOWLING MOON",
+    "fanciful_name": "",
+    "email_address": "",
+    "grape_varietals": "N/A",
+    "formula": "1211853",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "net_contents": "750 MILLILITERS",
+    "alcohol_content": "40%",
+    "wine_appellation": "",
+    "wine_vintage": "",
+    "phone_number": "(828) 208-1469",
+    "fax_number": "",
+    "date_of_application": "11/19/2014",
+    "date_issued": "12/19/2014",
+    "qualifications": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "WHISKY",
+    "expiration_date": "",
+    "vendor_code": "22302",
+    "class_type_code": "WHISKY",
+    "origin_code": "NORTH CAROLINA",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "12/19/2014",
+    "contact_information": "",
+    "type_of_product": [
+      "distilled_spirits"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "14323001000602",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "140",
+    "OR": "35",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "DSP-NC-15011",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "HOWLING MOON, THE COPPER STILL LLC 42 OLD ELK MOUNTAIN RD ASHEVILLE NC 28804 HOWLING MOON (Used on label)",
+    "4. SERIAL NUMBER (Required)": "140002",
+    "6. BRAND NAME (Required)": "HOWLING MOON",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. EMAIL ADDRESS": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "11. FORMULA": "",
+    "18. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "12. NET CONTENTS": "750 MILLILITERS",
+    "13. ALCOHOL CONTENT": "40%",
+    "14. WINE APPELLATION IF ON LABEL": "",
+    "15. WINE VINTAGE DATE IF ON LABEL": "",
+    "16. PHONE NUMBER": "(828) 208-1469",
+    "17. FAX NUMBER": "",
+    "20. DATE OF APPLICATION": "11/19/2014",
+    "21. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "22. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "CODY BRAFORD",
+    "23. DATE ISSUED": "12/19/2014",
+    "24. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "WHISKY",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "14323001000602",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "22302",
+    "Serial #:": "140002",
+    "Class/Type Code:": "WHISKY",
+    "Origin Code:": "NORTH CAROLINA",
+    "Brand Name:": "HOWLING MOON",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Wine Vintage:": "",
+    "Formula :": "1211853",
+    "Approval Date:": "12/19/2014",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": true,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "TTB_Label_Whiskey.jpg",
+    "Back_Label_Moonshine_Whiskey.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "TTB_Label_Whiskey.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=TTB Label Whiskey.jpg&filetype=l",
+      "source_name": "TTB Label Whiskey.jpg"
+    },
+    {
+      "file": "Back_Label_Moonshine_Whiskey.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=Back Label  Moonshine Whiskey.jpg&filetype=l",
+      "source_name": "Back Label  Moonshine Whiskey.jpg"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "25269001000080",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "25269001000080",
+    "class_type_code_short": "81",
+    "origin_code_short": "51",
+    "plant_registry_number": "MA-I-548",
+    "applicant_name_address": "M. S. WALKER, INC. 300 MEADOW RD BOSTON MA 02136 M.S. WALKER BRANDS (Used on label)",
+    "serial_number": "250196",
+    "brand_name": "CHATEAU CLARISSE",
+    "fanciful_name": "",
+    "formula": "",
+    "grape_varietals": "Chardonnay",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "VIN DE FRANCE",
+    "phone_number": "(617) 776-6700",
+    "email_address": "",
+    "date_of_application": "09/26/2025",
+    "date_issued": "10/06/2025",
+    "qualifications": "INFORMATION RETRIEVED FROM THE QR CODE, MICROSOFT TAG OR NEAR-FIELD COMMUNICATION TAG MUST BE IN COMPLIANCE WITH ALL ADVERTISING REGULATIONS. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "TABLE WHITE WINE",
+    "expiration_date": "",
+    "vendor_code": "10352",
+    "class_type_code": "TABLE WHITE WINE",
+    "origin_code": "FRANCE",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "10/06/2025",
+    "contact_information": "",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "imported"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "25269001000080",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "81",
+    "OR": "51",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "MA-I-548",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "M. S. WALKER, INC. 300 MEADOW RD BOSTON MA 02136 M.S. WALKER BRANDS (Used on label)",
+    "4. SERIAL NUMBER (Required)": "250196",
+    "6. BRAND NAME (Required)": "CHATEAU CLARISSE",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "Chardonnay",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "VIN DE FRANCE",
+    "12. PHONE NUMBER": "(617) 776-6700",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "09/26/2025",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "Kenneth Anderson",
+    "19. DATE ISSUED": "10/06/2025",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "INFORMATION RETRIEVED FROM THE QR CODE, MICROSOFT TAG OR NEAR-FIELD COMMUNICATION TAG MUST BE IN COMPLIANCE WITH ALL ADVERTISING REGULATIONS. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "TABLE WHITE WINE",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "25269001000080",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "10352",
+    "Serial #:": "250196",
+    "Class/Type Code:": "TABLE WHITE WINE",
+    "Origin Code:": "FRANCE",
+    "Brand Name:": "CHATEAU CLARISSE",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Grape Varietal(s):": "Chardonnay",
+    "Formula :": "",
+    "Approval Date:": "10/06/2025",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": false,
+    "Source of Product: Imported": true,
+    "Type of Product: Wine": true,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "CHA24MSWALKER.png",
+    "CHA24MSWALKER_FRONT_.png"
+  ],
+  "images_detail": [
+    {
+      "file": "CHA24MSWALKER.png",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=CHA24MSWALKER.png&filetype=l",
+      "source_name": "CHA24MSWALKER.png"
+    },
+    {
+      "file": "CHA24MSWALKER_FRONT_.png",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=CHA24MSWALKER FRONT .png&filetype=l",
+      "source_name": "CHA24MSWALKER FRONT .png"
+    }
+  ]
+}

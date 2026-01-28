@@ -1,0 +1,109 @@
+{
+  "id": "19220001001131",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "19220001001131",
+    "class_type_code_short": "906",
+    "origin_code_short": "38",
+    "plant_registry_number": "BR-OR-21186",
+    "applicant_name_address": "Great Notion Brewing & Barrel House, Humboldt Street Collective, LLC 2444 NW 28TH AVE Portland OR 97210",
+    "serial_number": "190034",
+    "brand_name": "PINEAPPLE JUICE INVADER",
+    "fanciful_name": "",
+    "formula": "",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(971) 404-5521",
+    "email_address": "",
+    "date_of_application": "08/08/2019",
+    "date_issued": "08/25/2019",
+    "qualifications": "This COLA is conditioned upon compliance with TTB Ruling 2015-1 TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "expiration_date": "",
+    "vendor_code": "40219",
+    "class_type_code": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "origin_code": "OREGON",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "08/25/2019",
+    "contact_information": "",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "19220001001131",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "906",
+    "OR": "38",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "BR-OR-21186",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "Great Notion Brewing & Barrel House, Humboldt Street Collective, LLC 2444 NW 28TH AVE Portland OR 97210",
+    "4. SERIAL NUMBER (Required)": "190034",
+    "6. BRAND NAME (Required)": "PINEAPPLE JUICE INVADER",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(971) 404-5521",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "08/08/2019",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "James Miller",
+    "19. DATE ISSUED": "08/25/2019",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "This COLA is conditioned upon compliance with TTB Ruling 2015-1 TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "19220001001131",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "40219",
+    "Serial #:": "190034",
+    "Class/Type Code:": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "Origin Code:": "OREGON",
+    "Brand Name:": "PINEAPPLE JUICE INVADER",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "",
+    "Approval Date:": "08/25/2019",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": true,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "Pineapple_Juice_Invader_Keg.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "Pineapple_Juice_Invader_Keg.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=Pineapple Juice Invader Keg.jpg&filetype=l",
+      "source_name": "Pineapple Juice Invader Keg.jpg"
+    }
+  ]
+}

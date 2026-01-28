@@ -1,0 +1,109 @@
+{
+  "id": "21033001001020",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "21033001001020",
+    "class_type_code_short": "906",
+    "origin_code_short": "38",
+    "plant_registry_number": "BR-OR-21186",
+    "applicant_name_address": "Great Notion Brewing & Barrel House, Humboldt Street Collective, LLC 2444 NW 28TH AVE Portland OR 97210",
+    "serial_number": "210017",
+    "brand_name": "GREAT NOTION BREWING",
+    "fanciful_name": "PB & JAMMY PANTS",
+    "formula": "1379271",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(971) 404-5521",
+    "email_address": "",
+    "date_of_application": "02/02/2021",
+    "date_issued": "02/05/2021",
+    "qualifications": "It is the responsibility of the COLA holder to ensure that the appropriate certification documentation is obtained for the use of the \"certified\" statement on the label. The certificate must be kept at the permittee's address and made available for review upon request. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "expiration_date": "",
+    "vendor_code": "40219",
+    "class_type_code": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "origin_code": "OREGON",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "02/05/2021",
+    "contact_information": "",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "21033001001020",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "906",
+    "OR": "38",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "BR-OR-21186",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "Great Notion Brewing & Barrel House, Humboldt Street Collective, LLC 2444 NW 28TH AVE Portland OR 97210",
+    "4. SERIAL NUMBER (Required)": "210017",
+    "6. BRAND NAME (Required)": "GREAT NOTION BREWING",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "PB & JAMMY PANTS",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(971) 404-5521",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "02/02/2021",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "James Miller",
+    "19. DATE ISSUED": "02/05/2021",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "It is the responsibility of the COLA holder to ensure that the appropriate certification documentation is obtained for the use of the \"certified\" statement on the label. The certificate must be kept at the permittee's address and made available for review upon request. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "21033001001020",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "40219",
+    "Serial #:": "210017",
+    "Class/Type Code:": "MALT BEVERAGES SPECIALITIES - FLAVORED",
+    "Origin Code:": "OREGON",
+    "Brand Name:": "GREAT NOTION BREWING",
+    "Fanciful Name:": "PB & JAMMY PANTS",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "1379271",
+    "Approval Date:": "02/05/2021",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": true,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "PB_JAMMY_CAN-1.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "PB_JAMMY_CAN-1.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=PB JAMMY CAN-1.jpg&filetype=l",
+      "source_name": "PB JAMMY CAN-1.jpg"
+    }
+  ]
+}

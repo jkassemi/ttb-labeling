@@ -1,0 +1,127 @@
+{
+  "id": "18355001001016",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "18355001001016",
+    "class_type_code_short": "699",
+    "origin_code_short": "69",
+    "plant_registry_number": "VA-I-15130",
+    "applicant_name_address": "LIGHTNING RIVER LLC 2911 HUNTER MILL RD SUITE 303 OAKTON VA 22124",
+    "serial_number": "18015L",
+    "brand_name": "XPHORIA SPIRITS",
+    "fanciful_name": "THE STACKER",
+    "formula": "1318372",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(202) 449-3739",
+    "email_address": "",
+    "date_of_application": "12/21/2018",
+    "date_issued": "05/05/2019",
+    "qualifications": "This application is approved pending Rulemaking by the Food and Drug Administration regarding the gluten references. [Refer to TTB Ruling 2020-2] TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "OTHER SPECIALTIES & PROPRIETARIES",
+    "expiration_date": "",
+    "vendor_code": "18707",
+    "class_type_code": "OTHER SPECIALTIES & PROPRIETARIES",
+    "origin_code": "CANADA",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "05/05/2019",
+    "contact_information": "",
+    "type_of_product": [
+      "distilled_spirits"
+    ],
+    "source_of_product": [
+      "imported"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "18355001001016",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "699",
+    "OR": "69",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "VA-I-15130",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "LIGHTNING RIVER LLC 2911 HUNTER MILL RD SUITE 303 OAKTON VA 22124",
+    "4. SERIAL NUMBER (Required)": "18015L",
+    "6. BRAND NAME (Required)": "XPHORIA SPIRITS",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "THE STACKER",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(202) 449-3739",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "12/21/2018",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "ROBERT LEHRMAN",
+    "19. DATE ISSUED": "05/05/2019",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "This application is approved pending Rulemaking by the Food and Drug Administration regarding the gluten references. [Refer to TTB Ruling 2020-2] TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "OTHER SPECIALTIES & PROPRIETARIES",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "18355001001016",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "18707",
+    "Serial #:": "18015L",
+    "Class/Type Code:": "OTHER SPECIALTIES & PROPRIETARIES",
+    "Origin Code:": "CANADA",
+    "Brand Name:": "XPHORIA SPIRITS",
+    "Fanciful Name:": "THE STACKER",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "1318372",
+    "Approval Date:": "05/05/2019",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": false,
+    "Source of Product: Imported": true,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": true,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "stacker_frontrev.jpg",
+    "stacker_other1.jpg",
+    "stacker_other2.jpg",
+    "stacker_backrev.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "stacker_frontrev.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=stacker_frontrev.jpg&filetype=l",
+      "source_name": "stacker_frontrev.jpg"
+    },
+    {
+      "file": "stacker_other1.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=stacker_other1.jpg&filetype=l",
+      "source_name": "stacker_other1.jpg"
+    },
+    {
+      "file": "stacker_other2.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=stacker_other2.jpg&filetype=l",
+      "source_name": "stacker_other2.jpg"
+    },
+    {
+      "file": "stacker_backrev.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=stacker_backrev.jpg&filetype=l",
+      "source_name": "stacker_backrev.jpg"
+    }
+  ]
+}

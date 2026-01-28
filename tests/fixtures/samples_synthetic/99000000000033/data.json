@@ -1,0 +1,43 @@
+{
+  "id": "99000000000033",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.curvature.strong",
+    "image.curvature.strong",
+    "image.skew",
+    "image.compression.high"
+  ],
+  "fields": {
+    "ttb_id": "99000000000033",
+    "brand_name": "River Barrel",
+    "class_type_description": "Kentucky Straight Bourbon Whiskey",
+    "alcohol_content": "54.0% Alc./Vol. (108 Proof)",
+    "net_contents": "750 mL",
+    "type_of_product": [
+      "distilled_spirits"
+    ],
+    "source_of_product": [
+      "domestic"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

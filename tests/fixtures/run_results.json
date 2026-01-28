@@ -1,0 +1,402 @@
+[
+  {
+    "ttbid": "16323001000323",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16323001000323",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16323001000323",
+    "images_downloaded": 5,
+    "downloaded_at": "2026-01-26T19:46:28.243605Z"
+  },
+  {
+    "ttbid": "25100001000415",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25100001000415",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25100001000415",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:46:37.745981Z"
+  },
+  {
+    "ttbid": "12175001000069",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=12175001000069",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=12175001000069",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:46:48.051611Z"
+  },
+  {
+    "ttbid": "16225001000074",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16225001000074",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16225001000074",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:46:58.281535Z"
+  },
+  {
+    "ttbid": "19276001000953",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19276001000953",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19276001000953",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:47:05.452474Z"
+  },
+  {
+    "ttbid": "17128001000017",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17128001000017",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17128001000017",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:47:14.402063Z"
+  },
+  {
+    "ttbid": "23244001000241",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=23244001000241",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=23244001000241",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:47:21.287538Z"
+  },
+  {
+    "ttbid": "22122001000150",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=22122001000150",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=22122001000150",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:47:29.032171Z"
+  },
+  {
+    "ttbid": "16225001000082",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16225001000082",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16225001000082",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:47:37.218333Z"
+  },
+  {
+    "ttbid": "18037001000520",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=18037001000520",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=18037001000520",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:47:47.570018Z"
+  },
+  {
+    "ttbid": "20188001000752",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=20188001000752",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=20188001000752",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:47:57.509167Z"
+  },
+  {
+    "ttbid": "24066001000915",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=24066001000915",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=24066001000915",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:48:05.046261Z"
+  },
+  {
+    "ttbid": "12208001000412",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=12208001000412",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=12208001000412",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:48:14.997445Z"
+  },
+  {
+    "ttbid": "23325001000413",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=23325001000413",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=23325001000413",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:48:23.711028Z"
+  },
+  {
+    "ttbid": "11054001000049",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=11054001000049",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=11054001000049",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:48:32.146052Z"
+  },
+  {
+    "ttbid": "25085001000965",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25085001000965",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25085001000965",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:48:42.658334Z"
+  },
+  {
+    "ttbid": "25269001000080",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25269001000080",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25269001000080",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:48:53.675164Z"
+  },
+  {
+    "ttbid": "14251001000304",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=14251001000304",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=14251001000304",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:49:01.371253Z"
+  },
+  {
+    "ttbid": "21173001000429",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=21173001000429",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=21173001000429",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:49:11.769518Z"
+  },
+  {
+    "ttbid": "25100001000181",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25100001000181",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25100001000181",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:49:21.958956Z"
+  },
+  {
+    "ttbid": "19282001000825",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19282001000825",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19282001000825",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:49:29.915535Z"
+  },
+  {
+    "ttbid": "21033001001020",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=21033001001020",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=21033001001020",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:49:36.760158Z"
+  },
+  {
+    "ttbid": "18037001000516",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=18037001000516",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=18037001000516",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:49:46.937181Z"
+  },
+  {
+    "ttbid": "21040001000960",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=21040001000960",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=21040001000960",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:49:54.012378Z"
+  },
+  {
+    "ttbid": "20318001000692",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=20318001000692",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=20318001000692",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:50:00.072945Z"
+  },
+  {
+    "ttbid": "19186001000481",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19186001000481",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19186001000481",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:50:07.960583Z"
+  },
+  {
+    "ttbid": "17011001000064",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17011001000064",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17011001000064",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:50:18.095101Z"
+  },
+  {
+    "ttbid": "17207001000275",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17207001000275",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17207001000275",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:50:28.435114Z"
+  },
+  {
+    "ttbid": "19085001000181",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19085001000181",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19085001000181",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:50:35.106183Z"
+  },
+  {
+    "ttbid": "18355001001016",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=18355001001016",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=18355001001016",
+    "images_downloaded": 4,
+    "downloaded_at": "2026-01-26T19:50:49.730831Z"
+  },
+  {
+    "ttbid": "19220001001137",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19220001001137",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19220001001137",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:50:57.676133Z"
+  },
+  {
+    "ttbid": "17305001000710",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17305001000710",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17305001000710",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:51:07.092213Z"
+  },
+  {
+    "ttbid": "16124001000446",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16124001000446",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16124001000446",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:51:15.857144Z"
+  },
+  {
+    "ttbid": "17170001000155",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17170001000155",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17170001000155",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:51:25.366806Z"
+  },
+  {
+    "ttbid": "22265001000706",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=22265001000706",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=22265001000706",
+    "images_downloaded": 3,
+    "downloaded_at": "2026-01-26T19:51:38.597212Z"
+  },
+  {
+    "ttbid": "14323001000602",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=14323001000602",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=14323001000602",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:51:48.933534Z"
+  },
+  {
+    "ttbid": "16333001000229",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16333001000229",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16333001000229",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:00.061877Z"
+  },
+  {
+    "ttbid": "23015001000085",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=23015001000085",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=23015001000085",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:08.618033Z"
+  },
+  {
+    "ttbid": "25105001000171",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25105001000171",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25105001000171",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:52:16.822968Z"
+  },
+  {
+    "ttbid": "21262001000105",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=21262001000105",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=21262001000105",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:25.079504Z"
+  },
+  {
+    "ttbid": "22283001000255",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=22283001000255",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=22283001000255",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:34.063190Z"
+  },
+  {
+    "ttbid": "17205001000051",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=17205001000051",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=17205001000051",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:44.416318Z"
+  },
+  {
+    "ttbid": "18295001000454",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=18295001000454",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=18295001000454",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:52:53.695941Z"
+  },
+  {
+    "ttbid": "16302001000368",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16302001000368",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16302001000368",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:53:03.079944Z"
+  },
+  {
+    "ttbid": "25099001000321",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25099001000321",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25099001000321",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:53:08.582953Z"
+  },
+  {
+    "ttbid": "22228001000743",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=22228001000743",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=22228001000743",
+    "images_downloaded": 3,
+    "downloaded_at": "2026-01-26T19:53:19.752411Z"
+  },
+  {
+    "ttbid": "22033001000688",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=22033001000688",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=22033001000688",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:53:29.595553Z"
+  },
+  {
+    "ttbid": "16342001000076",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=16342001000076",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=16342001000076",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:53:40.038422Z"
+  },
+  {
+    "ttbid": "25100001000422",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=25100001000422",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=25100001000422",
+    "images_downloaded": 2,
+    "downloaded_at": "2026-01-26T19:53:48.407794Z"
+  },
+  {
+    "ttbid": "19220001001131",
+    "status": "ok",
+    "detail_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicDisplaySearchBasic&ttbid=19220001001131",
+    "printable_url": "https://ttbonline.gov/colasonline/viewColaDetails.do?action=publicFormDisplay&ttbid=19220001001131",
+    "images_downloaded": 1,
+    "downloaded_at": "2026-01-26T19:53:54.604984Z"
+  }
+]

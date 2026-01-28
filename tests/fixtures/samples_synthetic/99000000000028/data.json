@@ -1,0 +1,43 @@
+{
+  "id": "99000000000028",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.compression.high",
+    "net_contents.units",
+    "warning.linebreaks",
+    "warning.case_mismatch"
+  ],
+  "fields": {
+    "ttb_id": "99000000000028",
+    "brand_name": "River Valley",
+    "class_type_description": "Oregon Pinot Noir",
+    "alcohol_content": "14.0% Alc./Vol.",
+    "net_contents": "750 mL",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "domestic"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

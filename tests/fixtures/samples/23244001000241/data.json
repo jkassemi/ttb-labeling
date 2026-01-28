@@ -1,0 +1,109 @@
+{
+  "id": "23244001000241",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "23244001000241",
+    "class_type_code_short": "901",
+    "origin_code_short": "02",
+    "plant_registry_number": "BR-NY-GRE-15000",
+    "applicant_name_address": "GREAT SOUTH BAY BREWERY, GREAT SOUTH BAY BREWERY CORP. 25 DREXEL DR BAY SHORE NY 11706",
+    "serial_number": "23GALI",
+    "brand_name": "GREAT SOUTH BAY BREWERY",
+    "fanciful_name": "GALLI ROSSI",
+    "formula": "",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(631) 796-3873",
+    "email_address": "",
+    "date_of_application": "09/01/2023",
+    "date_issued": "10/05/2023",
+    "qualifications": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "BEER",
+    "expiration_date": "",
+    "vendor_code": "20359",
+    "class_type_code": "BEER",
+    "origin_code": "NEW YORK",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "10/05/2023",
+    "contact_information": "",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "23244001000241",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "901",
+    "OR": "02",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "BR-NY-GRE-15000",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "GREAT SOUTH BAY BREWERY, GREAT SOUTH BAY BREWERY CORP. 25 DREXEL DR BAY SHORE NY 11706",
+    "4. SERIAL NUMBER (Required)": "23GALI",
+    "6. BRAND NAME (Required)": "GREAT SOUTH BAY BREWERY",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "GALLI ROSSI",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(631) 796-3873",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "09/01/2023",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "RICHARD SOBOTKA",
+    "19. DATE ISSUED": "10/05/2023",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "BEER",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "23244001000241",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "20359",
+    "Serial #:": "23GALI",
+    "Class/Type Code:": "BEER",
+    "Origin Code:": "NEW YORK",
+    "Brand Name:": "GREAT SOUTH BAY BREWERY",
+    "Fanciful Name:": "GALLI ROSSI",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "",
+    "Approval Date:": "10/05/2023",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": true,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "Galli_Rossi_12_oz.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "Galli_Rossi_12_oz.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=Galli Rossi 12 oz.jpg&filetype=l",
+      "source_name": "Galli Rossi 12 oz.jpg"
+    }
+  ]
+}

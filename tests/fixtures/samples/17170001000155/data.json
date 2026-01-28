@@ -1,0 +1,115 @@
+{
+  "id": "17170001000155",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "17170001000155",
+    "class_type_code_short": "649",
+    "origin_code_short": "35",
+    "plant_registry_number": "DSP-NC-15011",
+    "applicant_name_address": "HOWLING MOON, THE COPPER STILL LLC 42 OLD ELK MOUNTAIN RD ASHEVILLE NC 28804 HOWLING MOON (Used on label)",
+    "serial_number": "170001",
+    "brand_name": "HOWLING MOON",
+    "fanciful_name": "APPLE PIE MOONSHINE",
+    "formula": "1165186",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(828) 208-1469",
+    "email_address": "",
+    "date_of_application": "06/19/2017",
+    "date_issued": "06/23/2017",
+    "qualifications": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "OTHER SPECIALTIES & PROPRIETARIES",
+    "expiration_date": "",
+    "vendor_code": "22302",
+    "class_type_code": "OTHER SPECIALTIES & PROPRIETARIES",
+    "origin_code": "NORTH CAROLINA",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "06/23/2017",
+    "contact_information": "",
+    "type_of_product": [
+      "distilled_spirits"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "17170001000155",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "649",
+    "OR": "35",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "DSP-NC-15011",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "HOWLING MOON, THE COPPER STILL LLC 42 OLD ELK MOUNTAIN RD ASHEVILLE NC 28804 HOWLING MOON (Used on label)",
+    "4. SERIAL NUMBER (Required)": "170001",
+    "6. BRAND NAME (Required)": "HOWLING MOON",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "APPLE PIE MOONSHINE",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(828) 208-1469",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "06/19/2017",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "CODY BRAFORD",
+    "19. DATE ISSUED": "06/23/2017",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "OTHER SPECIALTIES & PROPRIETARIES",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "17170001000155",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "22302",
+    "Serial #:": "170001",
+    "Class/Type Code:": "OTHER SPECIALTIES & PROPRIETARIES",
+    "Origin Code:": "NORTH CAROLINA",
+    "Brand Name:": "HOWLING MOON",
+    "Fanciful Name:": "APPLE PIE MOONSHINE",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "1165186",
+    "Approval Date:": "06/23/2017",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": true,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "2016_Apple_Pie_Label_TTB.jpg",
+    "2017_Back_Label_Apple_Pie_TTB.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "2016_Apple_Pie_Label_TTB.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=2016 Apple Pie Label TTB.jpg&filetype=l",
+      "source_name": "2016 Apple Pie Label TTB.jpg"
+    },
+    {
+      "file": "2017_Back_Label_Apple_Pie_TTB.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=2017 Back Label Apple Pie TTB.jpg&filetype=l",
+      "source_name": "2017 Back Label Apple Pie TTB.jpg"
+    }
+  ]
+}

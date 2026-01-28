@@ -1,0 +1,109 @@
+{
+  "id": "19085001000181",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "19085001000181",
+    "class_type_code_short": "902",
+    "origin_code_short": "24",
+    "plant_registry_number": "BR-ME-MAI-15002",
+    "applicant_name_address": "MAINE BEER COMPANY, LLC 525 US ROUTE 1 FREEPORT ME 04032",
+    "serial_number": "190326",
+    "brand_name": "THANK YOU 2019",
+    "fanciful_name": "",
+    "formula": "",
+    "grape_varietals": "N/A",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "",
+    "phone_number": "(207) 720-0750",
+    "email_address": "",
+    "date_of_application": "03/26/2019",
+    "date_issued": "04/02/2019",
+    "qualifications": "It is the responsibility of the COLA holder to ensure that the appropriate authorization is obtained for the use of the person and/or organization depicted on the label. The authorization must be kept at the permittee's address and made available for review upon request. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "ALE",
+    "expiration_date": "",
+    "vendor_code": "19532",
+    "class_type_code": "ALE",
+    "origin_code": "MAINE",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "04/02/2019",
+    "contact_information": "",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "19085001000181",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "902",
+    "OR": "24",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "BR-ME-MAI-15002",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "MAINE BEER COMPANY, LLC 525 US ROUTE 1 FREEPORT ME 04032",
+    "4. SERIAL NUMBER (Required)": "190326",
+    "6. BRAND NAME (Required)": "THANK YOU 2019",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "N/A",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "",
+    "12. PHONE NUMBER": "(207) 720-0750",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "03/26/2019",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "daniel KLEBAN",
+    "19. DATE ISSUED": "04/02/2019",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "It is the responsibility of the COLA holder to ensure that the appropriate authorization is obtained for the use of the person and/or organization depicted on the label. The authorization must be kept at the permittee's address and made available for review upon request. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "ALE",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "19085001000181",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "19532",
+    "Serial #:": "190326",
+    "Class/Type Code:": "ALE",
+    "Origin Code:": "MAINE",
+    "Brand Name:": "THANK YOU 2019",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Formula :": "",
+    "Approval Date:": "04/02/2019",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": false,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": true,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "20181128_ThankYou_Label_2019TTB_copy.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "20181128_ThankYou_Label_2019TTB_copy.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=20181128_ThankYou_Label_2019TTB copy.jpg&filetype=l",
+      "source_name": "20181128_ThankYou_Label_2019TTB copy.jpg"
+    }
+  ]
+}

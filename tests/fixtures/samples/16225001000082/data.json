@@ -1,0 +1,126 @@
+{
+  "id": "16225001000082",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "16225001000082",
+    "class_type_code_short": "80",
+    "origin_code_short": "50",
+    "plant_registry_number": "ME-I-15006",
+    "applicant_name_address": "DUE FRATELLI IMPORTS, DUE FRATELLI IMPORTS, LLC 93 KENNEBEC ST PORTLAND ME 04101",
+    "serial_number": "16NEBI",
+    "brand_name": "AGRICOLE GUSSALLI BERETTAA",
+    "fanciful_name": "",
+    "email_address": "",
+    "grape_varietals": "Nebbiolo",
+    "formula": "",
+    "type_of_application": [
+      "certificate_of_label_approval",
+      "resubmission_after_rejection"
+    ],
+    "net_contents": "750 MILLILITERS",
+    "alcohol_content": "13.5",
+    "wine_appellation": "LANGHE",
+    "wine_vintage": "2015",
+    "phone_number": "(207) 632-5800",
+    "fax_number": "",
+    "date_of_application": "08/12/2016",
+    "date_issued": "08/30/2016",
+    "qualifications": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "TABLE RED WINE",
+    "expiration_date": "",
+    "vendor_code": "13813",
+    "class_type_code": "TABLE RED WINE",
+    "origin_code": "ITALY",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "08/30/2016",
+    "contact_information": "",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "imported"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "16225001000082",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "80",
+    "OR": "50",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "ME-I-15006",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "DUE FRATELLI IMPORTS, DUE FRATELLI IMPORTS, LLC 93 KENNEBEC ST PORTLAND ME 04101",
+    "4. SERIAL NUMBER (Required)": "16NEBI",
+    "6. BRAND NAME (Required)": "AGRICOLE GUSSALLI BERETTAA",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. EMAIL ADDRESS": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "Nebbiolo",
+    "11. FORMULA": "",
+    "18. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ___16142001000012___",
+    "12. NET CONTENTS": "750 MILLILITERS",
+    "13. ALCOHOL CONTENT": "13.5",
+    "14. WINE APPELLATION IF ON LABEL": "LANGHE",
+    "15. WINE VINTAGE DATE IF ON LABEL": "2015",
+    "16. PHONE NUMBER": "(207) 632-5800",
+    "17. FAX NUMBER": "",
+    "20. DATE OF APPLICATION": "08/12/2016",
+    "21. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "22. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "PAUL TURINA",
+    "23. DATE ISSUED": "08/30/2016",
+    "24. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "TABLE RED WINE",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "16225001000082",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "13813",
+    "Serial #:": "16NEBI",
+    "Class/Type Code:": "TABLE RED WINE",
+    "Origin Code:": "ITALY",
+    "Brand Name:": "AGRICOLE GUSSALLI BERETTAA",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Grape Varietal(s):": "Nebbiolo",
+    "Wine Vintage:": "2015",
+    "Formula :": "",
+    "Approval Date:": "08/30/2016",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": false,
+    "Source of Product: Imported": true,
+    "Type of Product: Wine": true,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": true
+  },
+  "images": [
+    "Nebbiolo_brand_1.jpg",
+    "Nebbiolo_back_1.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "Nebbiolo_brand_1.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=Nebbiolo brand 1.jpg&filetype=l",
+      "source_name": "Nebbiolo brand 1.jpg"
+    },
+    {
+      "file": "Nebbiolo_back_1.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=Nebbiolo back 1.jpg&filetype=l",
+      "source_name": "Nebbiolo back 1.jpg"
+    }
+  ]
+}

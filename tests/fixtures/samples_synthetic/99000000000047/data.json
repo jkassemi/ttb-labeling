@@ -1,0 +1,42 @@
+{
+  "id": "99000000000047",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.curvature.strong",
+    "image.compression.low",
+    "brand.case"
+  ],
+  "fields": {
+    "ttb_id": "99000000000047",
+    "brand_name": "Bright Ridge",
+    "class_type_description": "Pilsner",
+    "alcohol_content": "5.0% Alc./Vol.",
+    "net_contents": "200 mL",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "domestic"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

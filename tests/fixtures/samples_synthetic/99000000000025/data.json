@@ -1,0 +1,43 @@
+{
+  "id": "99000000000025",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.compression.low",
+    "image.curvature.mild",
+    "image.skew",
+    "image.low_contrast"
+  ],
+  "fields": {
+    "ttb_id": "99000000000025",
+    "brand_name": "Copper Ridge",
+    "class_type_description": "Aged Rum",
+    "alcohol_content": "39.0% Alc./Vol. (78 Proof)",
+    "net_contents": "750 mL",
+    "type_of_product": [
+      "distilled_spirits"
+    ],
+    "source_of_product": [
+      "domestic"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}

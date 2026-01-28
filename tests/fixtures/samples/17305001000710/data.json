@@ -1,0 +1,116 @@
+{
+  "id": "17305001000710",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "17305001000710",
+    "class_type_code_short": "81",
+    "origin_code_short": "62",
+    "plant_registry_number": "CA-I-21878",
+    "applicant_name_address": "FINCA LA MALENA, FINCA LA MALENA, LLC 2335 S CALLE PALO FIERRO PALM SPRINGS CA 92264",
+    "serial_number": "17TO14",
+    "brand_name": "DRAGONBACK",
+    "fanciful_name": "",
+    "formula": "",
+    "grape_varietals": "Torrontes",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "LUJAN DE CUYO, MENDOZA, ARGENTINA",
+    "phone_number": "(917) 297-3867",
+    "email_address": "",
+    "date_of_application": "11/01/2017",
+    "date_issued": "11/09/2017",
+    "qualifications": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "SURRENDERED",
+    "class_type_description": "TABLE WHITE WINE",
+    "expiration_date": "",
+    "vendor_code": "26380",
+    "class_type_code": "TABLE WHITE WINE",
+    "origin_code": "ARGENTINA",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "11/09/2017",
+    "contact_information": "",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "imported"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "17305001000710",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "81",
+    "OR": "62",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "CA-I-21878",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "FINCA LA MALENA, FINCA LA MALENA, LLC 2335 S CALLE PALO FIERRO PALM SPRINGS CA 92264",
+    "4. SERIAL NUMBER (Required)": "17TO14",
+    "6. BRAND NAME (Required)": "DRAGONBACK",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "Torrontes",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "LUJAN DE CUYO, MENDOZA, ARGENTINA",
+    "12. PHONE NUMBER": "(917) 297-3867",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "11/01/2017",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "Sergio Stabio",
+    "19. DATE ISSUED": "11/09/2017",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS SURRENDERED.",
+    "CLASS/TYPE DESCRIPTION": "TABLE WHITE WINE",
+    "EXPIRATION DATE (If any)": ""
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "17305001000710",
+    "Status:": "SURRENDERED",
+    "Vendor Code:": "26380",
+    "Serial #:": "17TO14",
+    "Class/Type Code:": "TABLE WHITE WINE",
+    "Origin Code:": "ARGENTINA",
+    "Brand Name:": "DRAGONBACK",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Grape Varietal(s):": "Torrontes",
+    "Formula :": "",
+    "Approval Date:": "11/09/2017",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": false,
+    "Source of Product: Imported": true,
+    "Type of Product: Wine": true,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "ETIQUETAS-02.jpg",
+    "ETIQUETAS-03.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "ETIQUETAS-02.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=ETIQUETAS-02.jpg&filetype=l",
+      "source_name": "ETIQUETAS-02.jpg"
+    },
+    {
+      "file": "ETIQUETAS-03.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=ETIQUETAS-03.jpg&filetype=l",
+      "source_name": "ETIQUETAS-03.jpg"
+    }
+  ]
+}

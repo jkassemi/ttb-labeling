@@ -1,0 +1,116 @@
+{
+  "id": "25100001000181",
+  "source": "ttb_real",
+  "synthetic": false,
+  "fields": {
+    "ttb_id": "25100001000181",
+    "class_type_code_short": "81",
+    "origin_code_short": "44",
+    "plant_registry_number": "BWN-TX-21257",
+    "applicant_name_address": "Texas Heritage Vineyard, LLC 3750 GRAPETOWN RD Fredericksburg TX 78624 TEXAS HERITAGE VINEYARD (Used on label)",
+    "serial_number": "250410",
+    "brand_name": "TEXAS HERITAGE VINEYARD",
+    "fanciful_name": "",
+    "formula": "",
+    "grape_varietals": "Albari\u00f1o",
+    "type_of_application": [
+      "certificate_of_label_approval"
+    ],
+    "wine_appellation": "TEXAS HIGH PLAINS",
+    "phone_number": "(830) 456-6059",
+    "email_address": "",
+    "date_of_application": "04/10/2025",
+    "date_issued": "05/22/2025",
+    "qualifications": "Permission granted to black out the noncompliance information on the label. The label must appear on the container as it is shown on this application with the text blacked out in the manner you have chosen. (allowing the use-up without blacking out oaked. no other use-ups will be granted) NO MORE USE-UPS WILL BE GRANTED. This certificate is operative for the release of not more than the following number of bottle cases/ kegs. (160 cases) This use-up authorizes the depletion of product and labels that are currently in existence as of the date the use-up was requested. No additional product may be made and no additional labels may be printed. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "status": "EXPIRED",
+    "class_type_description": "TABLE WHITE WINE",
+    "expiration_date": "10/22/2025",
+    "vendor_code": "36765",
+    "class_type_code": "TABLE WHITE WINE",
+    "origin_code": "TEXAS",
+    "for_sale_in": "",
+    "total_bottle_capacity": "",
+    "approval_date": "05/22/2025",
+    "contact_information": "",
+    "type_of_product": [
+      "wine"
+    ],
+    "source_of_product": [
+      "domestic"
+    ]
+  },
+  "fields_raw_printable": {
+    "TTB ID": "25100001000181",
+    "1. REP. ID. NO. (If any)": "",
+    "CT": "81",
+    "OR": "44",
+    "2. PLANT REGISTRY/BASIC PERMIT/BREWER'S NO. (Required)": "BWN-TX-21257",
+    "8. NAME AND ADDRESS OF APPLICANT AS SHOWN ON PLANT REGISTRY, BASIC PERMIT OR BREWER'S NOTICE. INCLUDE APPROVED DBA OR TRADENAME IF USED ON LABEL (Required)": "Texas Heritage Vineyard, LLC 3750 GRAPETOWN RD Fredericksburg TX 78624 TEXAS HERITAGE VINEYARD (Used on label)",
+    "4. SERIAL NUMBER (Required)": "250410",
+    "6. BRAND NAME (Required)": "TEXAS HERITAGE VINEYARD",
+    "8a. MAILING ADDRESS, IF DIFFERENT": "",
+    "7. FANCIFUL NAME (If any)": "",
+    "9. FORMULA": "",
+    "10. GRAPE VARIETAL(S) (Wine Only)": "Albari\u00f1o",
+    "14. TYPE OF APPLICATION (Check applicable box(es))": "a. CERTIFICATE OF LABEL APPROVAL b. CERTIFICATE OF EXEMPTION FROM LABEL APPROVAL \"For sale in _______ only\" (Fill in State abbreviation.) c. DISTINCTIVE LIQUOR BOTTLE APPROVAL. TOTAL BOTTLE CAPACITY BEFORE CLOSURE ____ _____ (Fill in amount) d. RESUBMISSION AFTER REJECTION TTB ID. NO. ______",
+    "11. WINE APPELLATION (If on label)": "TEXAS HIGH PLAINS",
+    "12. PHONE NUMBER": "(830) 456-6059",
+    "13. EMAIL ADDRESS": "",
+    "16. DATE OF APPLICATION": "04/10/2025",
+    "17. SIGNATURE OF APPLICANT OR AUTHORIZED AGENT": "(Application was e-filed)",
+    "18. PRINT NAME OF APPLICANT OR AUTHORIZED AGENT": "Susan Johnson",
+    "19. DATE ISSUED": "05/22/2025",
+    "20. AUTHORIZED SIGNATURE, ALCOHOL AND TOBACCO TAX AND TRADE BUREAU": "",
+    "QUALIFICATIONS": "Permission granted to black out the noncompliance information on the label. The label must appear on the container as it is shown on this application with the text blacked out in the manner you have chosen. (allowing the use-up without blacking out oaked. no other use-ups will be granted) NO MORE USE-UPS WILL BE GRANTED. This certificate is operative for the release of not more than the following number of bottle cases/ kegs. (160 cases) This use-up authorizes the depletion of product and labels that are currently in existence as of the date the use-up was requested. No additional product may be made and no additional labels may be printed. TTB has not reviewed this label for type size, characters per inch or contrasting background. The responsible industry member must continue to ensure that the mandatory information on the actual labels is displayed in the correct type size, number of characters per inch, and on a contrasting background in accordance with the TTB labeling regulations, 27 CFR parts 4, 5, 7, and 16, as applicable.",
+    "STATUS": "THE STATUS IS EXPIRED.",
+    "CLASS/TYPE DESCRIPTION": "TABLE WHITE WINE",
+    "EXPIRATION DATE (If any)": "10/22/2025"
+  },
+  "fields_raw_detail": {
+    "TTB ID:": "25100001000181",
+    "Status:": "EXPIRED",
+    "Vendor Code:": "36765",
+    "Serial #:": "250410",
+    "Class/Type Code:": "TABLE WHITE WINE",
+    "Origin Code:": "TEXAS",
+    "Brand Name:": "TEXAS HERITAGE VINEYARD",
+    "Fanciful Name:": "",
+    "Type of Application:": "LABEL APPROVAL",
+    "For Sale In:": "",
+    "Total Bottle Capacity:": "",
+    "Grape Varietal(s):": "Albari\u00f1o",
+    "Formula :": "",
+    "Approval Date:": "05/22/2025",
+    "Qualifications:": "",
+    "Plant Registry/Basic Permit/Brewers No (Principal Place of Business):": "",
+    "Plant Registry/Basic Permit/Brewers No (Other):": "",
+    "Contact Information:": ""
+  },
+  "checkboxes": {
+    "Source of Product: Domestic": true,
+    "Source of Product: Imported": false,
+    "Type of Product: Wine": true,
+    "Type of Product: Distilled Spirits": false,
+    "Type of Product: Malt Beverage": false,
+    "Type of Application": true,
+    "Certificate of label Approval": false,
+    "Distinctive Liquor Bottle Approval": false,
+    "Previous TTB Id": false
+  },
+  "images": [
+    "2024_Oaked_Albarino_Front_Label.jpg",
+    "2024_Oaked_Albarino_Back_Label.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "2024_Oaked_Albarino_Front_Label.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=2024 Oaked Albarino Front Label.jpg&filetype=l",
+      "source_name": "2024 Oaked Albarino Front Label.jpg"
+    },
+    {
+      "file": "2024_Oaked_Albarino_Back_Label.jpg",
+      "source_url": "https://ttbonline.gov/colasonline/publicViewAttachment.do?filename=2024 Oaked Albarino Back Label.jpg&filetype=l",
+      "source_name": "2024 Oaked Albarino Back Label.jpg"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "99000000000034",
+  "source": "synthetic",
+  "synthetic": true,
+  "edge_cases": [
+    "image.rotation",
+    "image.curvature.strong",
+    "image.grain.low",
+    "image.rotation"
+  ],
+  "fields": {
+    "ttb_id": "99000000000034",
+    "brand_name": "North Forge",
+    "class_type_description": "American Lager",
+    "alcohol_content": "6.0% Alc./Vol.",
+    "net_contents": "1 L",
+    "type_of_product": [
+      "malt_beverage"
+    ],
+    "source_of_product": [
+      "imported"
+    ],
+    "status": "APPROVED",
+    "date_issued": "01/26/2026"
+  },
+  "fields_raw_printable": {},
+  "fields_raw_detail": {},
+  "checkboxes": {},
+  "images": [
+    "front.jpg",
+    "back.jpg"
+  ],
+  "images_detail": [
+    {
+      "file": "front.jpg",
+      "source_name": "synthetic_front.jpg"
+    },
+    {
+      "file": "back.jpg",
+      "source_name": "synthetic_back.jpg"
+    }
+  ]
+}
