@@ -7,7 +7,8 @@ Workflow (offline dataset prep):
   2) POST search (dateCompletedFrom/To, etc.)
   3) Export current results to CSV (server-side session) via POST
   4) Sample TTB IDs from CSV
-  5) For each TTB ID: open details page, follow "Printable Version" link, download images (+ save HTML)
+  5) For each TTB ID: open details page, follow "Printable Version" link,
+     download images (+ save HTML)
 
 Key properties:
   - Single-threaded + jittered sleeps
@@ -16,9 +17,10 @@ Key properties:
   - Optional --test: perform ONE search window + download ONE COLA then exit
 
 Notes:
-  - If your environment can't validate TLS (common in minimal containers), use --insecure to disable
-    cert verification *for dataset prep only*. The client will also auto-disable verification after
-    an SSL failure to avoid repeated errors.
+  - If your environment can't validate TLS (common in minimal containers), use
+    --insecure to disable cert verification *for dataset prep only*. The client
+    will also auto-disable verification after an SSL failure to avoid repeated
+    errors.
 """
 
 from __future__ import annotations
@@ -33,16 +35,15 @@ import re
 import sys
 import time
 import traceback
+from collections.abc import Iterable
 from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
-from collections.abc import Iterable
 from urllib.parse import parse_qs, urljoin, urlparse
 
 import requests
-from bs4 import BeautifulSoup
 import urllib3
-
+from bs4 import BeautifulSoup
 
 TTBID_RE = re.compile(r"\b(\d{14})\b")
 
@@ -126,7 +127,11 @@ def _request_with_retries(
         except requests.exceptions.SSLError as e:
             last_exc = e
             if sess.verify is not False:
-                log(cfg, "[warn] SSL verification failed; retrying with verification disabled")
+                log(
+                    cfg,
+                    "[warn] SSL verification failed; retrying with verification "
+                    "disabled",
+                )
                 sess.verify = False
                 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
             backoff = min(60, 2**attempt)
@@ -134,7 +139,11 @@ def _request_with_retries(
         except Exception as e:
             last_exc = e
             backoff = min(60, 2**attempt)
-            log(cfg, f"[retry] exception {type(e).__name__} on {method} {url} (sleep {backoff}s)")
+            log(
+                cfg,
+                f"[retry] exception {type(e).__name__} on {method} {url} "
+                f"(sleep {backoff}s)",
+            )
             time.sleep(backoff)
     raise RuntimeError(f"Failed after retries: {method} {url}") from last_exc
 
@@ -164,7 +173,7 @@ def infer_ext(content_type: str, blob: bytes) -> str:
         return ".pdf"
 
     # Sniff common magic numbers when content-type is missing/incorrect
-    if blob.startswith(b"\xFF\xD8\xFF"):
+    if blob.startswith(b"\xff\xd8\xff"):
         return ".jpg"
     if blob.startswith(b"\x89PNG\r\n\x1a\n"):
         return ".png"
@@ -265,7 +274,9 @@ class AttachmentParser(HTMLParser):
             self.urls.append(src)
 
 
-_DETAIL_STRONG_RE = re.compile(r"<strong>([^<]+)</strong>(.*?)</td>", re.IGNORECASE | re.DOTALL)
+_DETAIL_STRONG_RE = re.compile(
+    r"<strong>([^<]+)</strong>(.*?)</td>", re.IGNORECASE | re.DOTALL
+)
 
 
 def _clean_text(value: str) -> str:
@@ -340,9 +351,14 @@ _LABEL_TO_KEY = {
     "expiration date": "expiration_date",
     "date of application": "date_of_application",
     "date issued": "date_issued",
-    "name and address of applicant as shown on plant registry basic permit or brewers notice include approved dba or tradename if used on label": "applicant_name_address",
+    (
+        "name and address of applicant as shown on plant registry basic permit "
+        "or brewers notice include approved dba or tradename if used on label"
+    ): "applicant_name_address",
     "plant registry/basic permit/brewers no": "plant_registry_number",
-    "plant registry/basic permit/brewers no principal place of business": "plant_registry_principal",
+    (
+        "plant registry/basic permit/brewers no principal place of business"
+    ): "plant_registry_principal",
     "plant registry/basic permit/brewers no other": "plant_registry_other",
     "contact information": "contact_information",
     "phone number": "phone_number",
@@ -353,7 +369,9 @@ _LABEL_TO_KEY = {
 _DETAIL_PRIORITY_KEYS = {"status", "type_of_application"}
 
 
-def map_fields(fields_printable: dict[str, str], fields_detail: dict[str, str]) -> dict[str, str]:
+def map_fields(
+    fields_printable: dict[str, str], fields_detail: dict[str, str]
+) -> dict[str, str]:
     mapped: dict[str, str] = {}
 
     for label, value in fields_printable.items():
@@ -443,15 +461,21 @@ def export_search_results_csv(sess: requests.Session, cfg: Config) -> bytes | No
     """
     Trigger 'Save Search Results To File' via POST.
     Must be called AFTER a successful search POST.
-    Returns bytes that should be CSV; may return HTML if export not available for some reason.
+    Returns bytes that should be CSV; may return HTML if export is unavailable
+    for some reason.
     """
     export_url = urljoin(cfg.base, "publicSaveSearchResults.do?action=save")
     r = _request_with_retries(sess, cfg, "POST", export_url)
     content_type = (r.headers.get("content-type") or "").lower()
 
-    # Some failures return HTML (e.g., session not ready). Detect and return None to fall back.
+    # Some failures return HTML (e.g., session not ready). Detect and return
+    # None to fall back.
     if "text/html" in content_type:
-        log(cfg, f"[warn] export returned HTML content-type={content_type}; falling back to HTML parsing")
+        log(
+            cfg,
+            f"[warn] export returned HTML content-type={content_type}; "
+            "falling back to HTML parsing",
+        )
         return None
 
     return r.content
@@ -470,12 +494,16 @@ def download_images_from_printable(
 
     ensure_dir(item_dir / "images")
     images_info: list[dict[str, str]] = []
-    used_names: set[str] = {p.name for p in (item_dir / "images").iterdir() if p.is_file()}
+    used_names: set[str] = {
+        p.name for p in (item_dir / "images").iterdir() if p.is_file()
+    }
 
     for u in candidates:
         parsed = urlparse(u)
         qs = parse_qs(parsed.query)
-        source_name = (qs.get("filename", [""])[0] or Path(parsed.path).name or "attachment").strip()
+        source_name = (
+            qs.get("filename", [""])[0] or Path(parsed.path).name or "attachment"
+        ).strip()
         safe_name = re.sub(r"[\s]+", "_", source_name)
         safe_name = safe_name.replace("/", "_").replace("\\", "_")
         base = Path(safe_name).stem or "attachment"
@@ -494,21 +522,30 @@ def download_images_from_printable(
             if inferred_ext and not out.name.lower().endswith(inferred_ext):
                 out = out.with_suffix(inferred_ext)
                 if out.exists():
-                    images_info.append({"file": out.name, "source_url": u, "source_name": source_name})
+                    images_info.append(
+                        {"file": out.name, "source_url": u, "source_name": source_name}
+                    )
                     continue
             out.write_bytes(blob)
-        images_info.append({"file": out.name, "source_url": u, "source_name": source_name})
+        images_info.append(
+            {"file": out.name, "source_url": u, "source_name": source_name}
+        )
 
     (item_dir / "printable.html").write_text(html, encoding="utf-8", errors="ignore")
     return images_info, html
 
 
-def fetch_one_cola(sess: requests.Session, cfg: Config, ttbid: str) -> dict[str, object]:
+def fetch_one_cola(
+    sess: requests.Session, cfg: Config, ttbid: str
+) -> dict[str, object]:
     item_dir = cfg.samples_dir / ttbid
     ensure_dir(item_dir)
 
     detail_urls = [
-        urljoin(cfg.base, f"viewColaDetails.do?action=publicDisplaySearchBasic&ttbid={ttbid}"),
+        urljoin(
+            cfg.base,
+            f"viewColaDetails.do?action=publicDisplaySearchBasic&ttbid={ttbid}",
+        ),
         urljoin(cfg.base, f"viewColaDetails.do?action=publicFormDisplay&ttbid={ttbid}"),
     ]
 
@@ -526,7 +563,9 @@ def fetch_one_cola(sess: requests.Session, cfg: Config, ttbid: str) -> dict[str,
     if detail_html is None:
         return {"ttbid": ttbid, "status": "error", "error": "could_not_fetch_detail"}
 
-    (item_dir / "detail.html").write_text(detail_html, encoding="utf-8", errors="ignore")
+    (item_dir / "detail.html").write_text(
+        detail_html, encoding="utf-8", errors="ignore"
+    )
 
     soup = BeautifulSoup(detail_html, "html.parser")
     printable_href = find_link(soup, r"Printable\s+Version")
@@ -539,7 +578,11 @@ def fetch_one_cola(sess: requests.Session, cfg: Config, ttbid: str) -> dict[str,
                 break
             if href.startswith("javascript:") or href == "javascript:void(0)":
                 extracted = extract_url_from_onclick(a.get("onclick") or "")
-                if extracted and "print" in extracted.lower() and "cola" in extracted.lower():
+                if (
+                    extracted
+                    and "print" in extracted.lower()
+                    and "cola" in extracted.lower()
+                ):
                     printable_href = extracted
                     break
 
@@ -548,7 +591,9 @@ def fetch_one_cola(sess: requests.Session, cfg: Config, ttbid: str) -> dict[str,
     printable_url: str | None = None
     if printable_href and not printable_href.startswith("javascript:"):
         printable_url = urljoin(cfg.base, printable_href)
-        images_info, printable_html = download_images_from_printable(sess, cfg, printable_url, item_dir)
+        images_info, printable_html = download_images_from_printable(
+            sess, cfg, printable_url, item_dir
+        )
     else:
         log(cfg, f"[warn] no printable link found for {ttbid}")
 
@@ -581,7 +626,9 @@ def fetch_one_cola(sess: requests.Session, cfg: Config, ttbid: str) -> dict[str,
         "detail_url": detail_url_used,
         "printable_url": printable_url,
         "images_downloaded": len(images_info),
-        "downloaded_at": dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
+        "downloaded_at": dt.datetime.now(dt.timezone.utc)
+        .isoformat()
+        .replace("+00:00", "Z"),
     }
     (item_dir / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     return meta
@@ -622,26 +669,56 @@ def save_state(path: Path, seen: set[str], downloaded: set[str]) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--base", default="https://ttbonline.gov/colasonline/", help="Base URL (end with /colasonline/)")
-    ap.add_argument("--outdir", default="tests/fixtures", help="Output directory (will write into <outdir>/samples)")
+    ap.add_argument(
+        "--base",
+        default="https://ttbonline.gov/colasonline/",
+        help="Base URL (end with /colasonline/)",
+    )
+    ap.add_argument(
+        "--outdir",
+        default="tests/fixtures",
+        help="Output directory (will write into <outdir>/samples)",
+    )
     ap.add_argument("--target", type=int, default=20, help="How many COLAs to download")
-    ap.add_argument("--windows", type=int, default=12, help="How many random date windows to try")
-    ap.add_argument("--per-window", type=int, default=8, help="Max IDs to sample per window (before downloading)")
-    ap.add_argument("--from-date", default="01/01/2025", help="Earliest completed date (MM/DD/YYYY)")
-    ap.add_argument("--to-date", default="01/25/2026", help="Latest completed date (MM/DD/YYYY)")
+    ap.add_argument(
+        "--windows", type=int, default=12, help="How many random date windows to try"
+    )
+    ap.add_argument(
+        "--per-window",
+        type=int,
+        default=8,
+        help="Max IDs to sample per window (before downloading)",
+    )
+    ap.add_argument(
+        "--from-date", default="01/01/2025", help="Earliest completed date (MM/DD/YYYY)"
+    )
+    ap.add_argument(
+        "--to-date", default="01/25/2026", help="Latest completed date (MM/DD/YYYY)"
+    )
     ap.add_argument("--min-window-days", type=int, default=3)
     ap.add_argument("--max-window-days", type=int, default=21)
-    ap.add_argument("--min-sleep", type=float, default=1.2, help="Min seconds between requests")
-    ap.add_argument("--max-sleep", type=float, default=2.8, help="Max seconds between requests")
+    ap.add_argument(
+        "--min-sleep", type=float, default=1.2, help="Min seconds between requests"
+    )
+    ap.add_argument(
+        "--max-sleep", type=float, default=2.8, help="Max seconds between requests"
+    )
     ap.add_argument("--timeout", type=int, default=40)
 
-    ap.add_argument("--insecure", action="store_true", help="Disable TLS verification (dataset prep only)")
+    ap.add_argument(
+        "--insecure",
+        action="store_true",
+        help="Disable TLS verification (dataset prep only)",
+    )
     ap.add_argument("--verbose", action="store_true", help="Verbose logging to stderr")
 
     ap.add_argument(
         "--test",
         action="store_true",
-        help="Run ONE window search + download ONE COLA, then exit (reduces traffic while developing)",
+        help=(
+            "Run ONE window search + download ONE COLA, then exit (reduces "
+            "traffic while developing)"
+        ),
     )
     ap.add_argument(
         "--seed",
@@ -695,7 +772,9 @@ def main() -> None:
 
     pool: list[str] = []
     window_i = 0
-    for a, b in random_date_windows(from_d, to_d, windows, args.min_window_days, args.max_window_days):
+    for a, b in random_date_windows(
+        from_d, to_d, windows, args.min_window_days, args.max_window_days
+    ):
         window_i += 1
         data = {
             "searchCriteria.dateCompletedFrom": mmddyyyy(a),
@@ -721,7 +800,9 @@ def main() -> None:
             ids = extract_ttbids_from_results_html(results_html)
             log(cfg, f"[info] HTML fallback IDs: {len(ids)}")
             if cfg.verbose:
-                (cfg.outdir / f"search_{a}_{b}.html").write_text(results_html, encoding="utf-8", errors="ignore")
+                (cfg.outdir / f"search_{a}_{b}.html").write_text(
+                    results_html, encoding="utf-8", errors="ignore"
+                )
 
         if not ids:
             log(cfg, f"[warn] no IDs found for window {a}–{b}; continuing")
@@ -731,7 +812,9 @@ def main() -> None:
         random.shuffle(new_ids)
         new_ids = new_ids[:per_window]
 
-        log(cfg, f"[info] new IDs this window: {len(new_ids)} (seen total: {len(seen)})")
+        log(
+            cfg, f"[info] new IDs this window: {len(new_ids)} (seen total: {len(seen)})"
+        )
         for x in new_ids:
             seen.add(x)
             pool.append(x)
@@ -742,7 +825,11 @@ def main() -> None:
             break
 
     if not pool:
-        log(cfg, "[error] pool is empty (no IDs discovered). Try smaller date windows or enable --verbose to inspect saved HTML/CSV.")
+        log(
+            cfg,
+            "[error] pool is empty (no IDs discovered). Try smaller date "
+            "windows or enable --verbose to inspect saved HTML/CSV.",
+        )
         save_state(state_path, seen, downloaded)
         print("Done. No COLAs downloaded (no IDs discovered).", file=sys.stderr)
         sys.exit(2)
@@ -765,7 +852,9 @@ def main() -> None:
                 "ttbid": ttbid,
                 "status": "error",
                 "error": f"{type(e).__name__}: {e}",
-                "downloaded_at": dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z"),
+                "downloaded_at": dt.datetime.now(dt.timezone.utc)
+                .isoformat()
+                .replace("+00:00", "Z"),
             }
         results.append(meta)
         if meta.get("status") == "ok":
@@ -776,7 +865,9 @@ def main() -> None:
             log(cfg, "[info] --test mode: exiting after one download attempt")
             break
 
-    (cfg.outdir / "run_results.json").write_text(json.dumps(results, indent=2), encoding="utf-8")
+    (cfg.outdir / "run_results.json").write_text(
+        json.dumps(results, indent=2), encoding="utf-8"
+    )
     ok = sum(1 for r in results if r.get("status") == "ok")
     print(f"Done. Downloaded {ok} COLAs into: {cfg.samples_dir}")
 

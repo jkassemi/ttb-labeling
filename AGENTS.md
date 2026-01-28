@@ -65,3 +65,4 @@
 * Don’t use `typing.List`/`typing.Dict`.
 * Don’t suppress errors without context.
 * Don’t introduce dependencies without approval.
+* Avoid unnecessary `__future__` imports (antipattern for Python 3.11+).

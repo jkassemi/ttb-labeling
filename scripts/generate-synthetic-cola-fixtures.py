@@ -19,12 +19,12 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
-
 WARNING_TEXT = (
-    "GOVERNMENT WARNING: (1) According to the Surgeon General, women should not drink alcoholic "
-    "beverages during pregnancy because of the risk of birth defects. (2) Consumption of "
-    "alcoholic beverages impairs your ability to drive a car or operate machinery, and may "
-    "cause health problems."
+    "GOVERNMENT WARNING: (1) According to the Surgeon General, women "
+    "should not drink alcoholic beverages during pregnancy because of the "
+    "risk of birth defects. (2) Consumption of alcoholic beverages impairs "
+    "your ability to drive a car or operate machinery, and may cause health "
+    "problems."
 )
 
 TEXT_TAGS = [
@@ -250,7 +250,9 @@ def abbreviate_class_type(value: str) -> str:
     return " ".join(replacements.get(part, part) for part in parts)
 
 
-def apply_text_edge_cases(spec: LabelSpec, tags: list[str], font_path: str | None) -> LabelText:
+def apply_text_edge_cases(
+    spec: LabelSpec, tags: list[str], font_path: str | None
+) -> LabelText:
     brand_name = spec.brand_name
     class_type = spec.class_type
     alcohol_content = format_alcohol_content(spec)
@@ -386,7 +388,9 @@ def apply_cylindrical_shading(img: Image.Image, strength: float) -> Image.Image:
     return Image.alpha_composite(img.convert("RGBA"), overlay).convert("RGB")
 
 
-def apply_skew(img: Image.Image, rng: random.Random, max_shear: float = 0.12) -> Image.Image:
+def apply_skew(
+    img: Image.Image, rng: random.Random, max_shear: float = 0.12
+) -> Image.Image:
     shear = rng.uniform(-max_shear, max_shear)
     xshift = abs(shear) * img.size[1]
     matrix = (1, shear, -xshift if shear > 0 else 0, 0, 1, 0)
@@ -418,7 +422,9 @@ def apply_grain(img: Image.Image, sigma: float, alpha: float) -> Image.Image:
     return Image.blend(img, noise, alpha)
 
 
-def apply_image_effects(img: Image.Image, tags: list[str], rng: random.Random) -> Image.Image:
+def apply_image_effects(
+    img: Image.Image, tags: list[str], rng: random.Random
+) -> Image.Image:
     if "image.curvature.strong" in tags:
         img = apply_cylindrical_warp(img, strength=0.45)
         img = apply_cylindrical_shading(img, strength=0.25)
@@ -498,7 +504,9 @@ def build_fields(spec: LabelSpec) -> dict[str, object]:
     return fields
 
 
-def build_images(text: LabelText, size: tuple[int, int], tags: list[str], rng: random.Random) -> list[ImageInfo]:
+def build_images(
+    text: LabelText, size: tuple[int, int], tags: list[str], rng: random.Random
+) -> list[ImageInfo]:
     front = render_front_label(text, size)
     back = render_back_label(text, size)
 
@@ -578,7 +586,9 @@ def main() -> None:
                 for info in images
             ],
         }
-        (sample_dir / "data.json").write_text(json.dumps(data, indent=2), encoding="utf-8")
+        (sample_dir / "data.json").write_text(
+            json.dumps(data, indent=2), encoding="utf-8"
+        )
 
         meta = {
             "ttbid": sample_id,
@@ -588,7 +598,9 @@ def main() -> None:
             .isoformat()
             .replace("+00:00", "Z"),
         }
-        (sample_dir / "meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
+        (sample_dir / "meta.json").write_text(
+            json.dumps(meta, indent=2), encoding="utf-8"
+        )
 
     print(f"Wrote {args.count} synthetic fixture(s) to {out_root}")
 
