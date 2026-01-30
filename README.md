@@ -35,6 +35,7 @@ Application deployed (temporarily) at https://ttb.kassemi.org/.
 * Human in the loop - Jenny presents adherence to the requirements as rigid and strict, but given Dave's experience I'm assuming a human in the loop is essential to ensure an appropriate level of nuance is applied.
 * Test coverage is incomplete. Core flows exercised, but not every module's tests are exhaustive/complete.
 * Regulatory coverage is partial. Core checklist items are implemented, but edge cases and sub-rules may be missing (though relatively easy to add).
+* Very little input validation in place that *should* be before this is exposed to the public (image size, file size, field length, etc).
 
 ## Assumptions
 
